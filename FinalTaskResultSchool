@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+body{
+    font-family:Roboto Mono,Roboto, Tahoma,Verdana,SansSerif;
+    font-size: 16px;
+    line-height:normal;
+    font-weight: normal;
+}
+.info-text{
+    background-color: aliceblue;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.info-text .img
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.info-text .aboutme{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.hobbi{
+    margin-bottom: 5px;
+    padding:5px;
+    background-color: aliceblue;
+    border-style: groove;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 5px;
+}
+img{
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.50);
+}
+h3{
+    border: white;
+    padding-top: 0px;
+    margin: 0px;
+}
+.align{
+    color:#333;
+    border-style: none;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.align:hover
+{
+    color:white;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href ="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+<div class="main">
+      <div class="info-text">
+            <img src="images\img.png" alt = "Газизуллин Р.И." class="img">
+           <div class="aboutme">
+            <h1>Газизуллин Ринат Ильдусович</h1>
+            <p>Я Газизуллин Ринат программист с девятилетнем стажем обучаюсь в школе <em>Result.School</em></p>
+            <p>Надеюсь получить что то <strong>новое</strong></p>
+           </div>
+      </div>
+      <div class="hobbi">
+               <h2>Мои хоби</h2>
+                <ul>
+                    <li>Cмотреть видео</li>
+                    <li>Спорт</li>
+                    <li>Программирование</li>
+                </ul>
+      </div>
+      <div class="info-text">
+            <h2>Опыт работы</h2>
+            <table width="500" class="tb">
+            <thead>
+            <tr>
+                <th>Название организации</th>
+                <th>Должность</th>
+                <th>Год.</th>
+            </tr>
+            </thead>
+                <tr>
+                    <td>Новомет</td>
+                    <td>Испытатель</td>
+                    <td>2012-2018</td>
+                </tr>
+                <tr>
+                    <td>ФАБРИКА ГЗНК</td>
+                    <td>Инженер</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Club nomise</td>
+                    <td>Инженер</td>
+                    <td>2024-2048</td>
+                </tr>
+            </table>
+      </div>
+      <div class="hobbi">
+            <h2>Связатся со мной</h2>
+            <form >
+                <div class="label">
+                    <label for="message">Введие ваше имя</label>
+                    <input  type ="message" id = text placeholder="Андрей">
+                </div>
+                <div class="label">
+                    <Label for = "Email">Введите ваш Email</Label>
+                    <input type="text" id="Email" placeholder="Lissal777@rambler.ru">
+                </div>
+                <div class="eltextarea">
+                    <label for = "pl">Ваше сообщение</label>
+                    <textarea rows="15" cols="30" id = "pl" placeholder="Введите сообщение"></textarea>
+                </div>
+                <input type ="submit" class="btn" value="Отправить!">
+            </form>
+      </div>
+        <h3>Мои социальные сети</h3>
+        <a href="https://vk.com/sundyans" target="_blank" class="align">VK</a><strong> | </strong>
+        <a href="Form.html" class="align">Page Form</a><strong> | </strong>
+</div>
+</body>
+</html>
+
+/**/
+body{
+    background-color: #d0d1d6;
+    color: black;
+}
+.main{
+    padding: 2px;
+    margin: 2px;
+}
+.btn{
+    color: white;
+    font-style: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: black;
+    border:none;
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.btn:hover {
+    opacity:0.8;
+    color: orange;
+}
+.align{
+    font-style:inherit;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+.tb
+{
+    width: 100%;
+}
+.tb tr:nth-child(even)
+{
+    background-color:lightcoral;
+
+}
+.tb thead tr{
+    background: lightblue;
+}
+.tb td:nth-child(3)
+{
+    text-align: center;
+}
+.label{
+    display: table-row;
+    height: 50px;
+    border: 1px solid red;
+}
+.label input{
+display: table-cell;
+    margin-left: 5px;
+
+}
+.label label{
+display: table-cell;
+    margin-left: 10px;
+}
+.eltextarea label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.eltextarea textarea
+{
+    margin-left: 5px;
+}
+.hobbi h2{
+    text-align: center;
+}
+@media (max-width: 650px) {
+    .info-text{
+        text-align: center;
+        display: block;
+    }
+    .info-text .aboutme{
+        display: block;
+    }
+}
