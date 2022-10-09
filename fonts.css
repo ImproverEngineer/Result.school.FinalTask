@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+body{
+    font-family:Roboto Mono,Roboto, Tahoma,Verdana,SansSerif;
+    font-size: 16px;
+    line-height:normal;
+    font-weight: normal;
+}
+.info-text{
+    background-color: aliceblue;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.info-text .img
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.info-text .aboutme{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.hobbi{
+    margin-bottom: 5px;
+    padding:5px;
+    background-color: aliceblue;
+    border-style: groove;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 5px;
+}
+img{
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.50);
+}
+h3{
+    border: white;
+    padding-top: 0px;
+    margin: 0px;
+}
+.align{
+    color:#333;
+    border-style: none;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.align:hover
+{
+    color:white;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}

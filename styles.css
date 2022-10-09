@@ -1,0 +1,84 @@
+
+/**/
+body{
+    background-color: #d0d1d6;
+    color: black;
+}
+.main{
+    padding: 2px;
+    margin: 2px;
+}
+.btn{
+    color: white;
+    font-style: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: black;
+    border:none;
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.btn:hover {
+    opacity:0.8;
+    color: orange;
+}
+.align{
+    font-style:inherit;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+.tb
+{
+    width: 100%;
+}
+.tb tr:nth-child(even)
+{
+    background-color:lightcoral;
+
+}
+.tb thead tr{
+    background: lightblue;
+}
+.tb td:nth-child(3)
+{
+    text-align: center;
+}
+.label{
+    display: table-row;
+    height: 50px;
+    border: 1px solid red;
+}
+.label input{
+display: table-cell;
+    margin-left: 5px;
+
+}
+.label label{
+display: table-cell;
+    margin-left: 10px;
+}
+.eltextarea label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.eltextarea textarea
+{
+    margin-left: 5px;
+}
+.hobbi h2{
+    text-align: center;
+}
+@media (max-width: 650px) {
+    .info-text{
+        text-align: center;
+        display: block;
+    }
+    .info-text .aboutme{
+        display: block;
+    }
+}
